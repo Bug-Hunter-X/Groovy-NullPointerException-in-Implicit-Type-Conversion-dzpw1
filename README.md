@@ -1,0 +1,3 @@
+# Groovy NullPointerException in Implicit Type Conversion
+
+This repository demonstrates a subtle bug in Groovy related to implicit type conversion and null values. The `myMethod` function adds two numbers, but handles null input unexpectedly. This leads to potential issues when integrating with other parts of the application, where a more explicit error handling might be desired.  The solution demonstrates a more robust approach.
